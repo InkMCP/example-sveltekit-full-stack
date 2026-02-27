@@ -1,25 +1,29 @@
-# SvelteKit Full Stack
+# SvelteKit + SQLite
 
-Learn how to deploy a full-stack SvelteKit app with SQLite using Ink MCP.
+A simple SvelteKit full-stack app with SQLite database, ready to deploy.
+
+## Setup
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) to see the app.
+
+## Deploy with Ink
+
+Connect the [Ink MCP server](https://docs.ml.ink/quick-start) to your AI agent and prompt:
+
+> Deploy this app with Ink.
 
 ## Tutorial
 
-Full step-by-step tutorial: [docs.ml.ink/examples/full-stack/sveltekit-full-stack](https://docs.ml.ink/examples/full-stack/sveltekit-full-stack)
-
-### Prerequisites
-
-- An [Ink](https://ml.ink) account
-- Ink MCP connected to your AI agent ([setup guide](https://docs.ml.ink/quick-start))
-
-### Quick Deploy
-
-1. Connect Ink MCP to your agent
-2. Prompt: "Build a SvelteKit app with server-side form actions for a contact directory. Include search, create, and delete operations with a SQLite database."
-3. Prompt: "Deploy with Ink"
+Full tutorial: [docs.ml.ink/examples/full-stack/sveltekit-full-stack](https://docs.ml.ink/examples/full-stack/sveltekit-full-stack)
 
 ## About Ink
 
-[Ink](https://ml.ink) is a deployment platform built for AI agents. Connect the Ink MCP server to any AI coding agent and deploy applications, manage domains, databases, and infrastructure — all through natural language prompts.
+[Ink](https://ml.ink) is a deployment platform built for AI agents.
 
 - **Website**: [ml.ink](https://ml.ink)
 - **Documentation**: [docs.ml.ink](https://docs.ml.ink)
